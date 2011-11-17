@@ -2,7 +2,7 @@
   "name": "polymorph",
   "description": "Module to dynamic compilation in the development process.",
   "version": "0.0.1",
-  "author": "Dmitry Bochkarev <dmitrybochkarev@gmail.com>",
+  "author": "Dmitry Bochkarev <dimabochkarev@gmail.com>",
   "dependencies": {
     "mime": ">= 1.2.2",
     "qs": ">= 0.3.2",
