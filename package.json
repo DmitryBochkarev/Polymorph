@@ -1,6 +1,6 @@
 {
   "name": "polymorph",
-  "description": "Module to dynamic compilation in the development process.",
+  "description": "Polymorph Node module for compile client dev files on fly, inspired by connect-assets.",
   "version": "0.0.1",
   "author": "Dmitry Bochkarev <dimabochkarev@gmail.com>",
   "dependencies": {

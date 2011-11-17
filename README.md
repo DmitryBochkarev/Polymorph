@@ -1,6 +1,9 @@
 # Polymorph
 
 __Polymorph__ [Node](http://nodejs.org) module for compile client dev files on fly, inspired by [connect-assets](http://github.com/TrevorBurnham/connect-assets).
+## Installation
+
+`npm install polymorph`
 
 ## Example
 
