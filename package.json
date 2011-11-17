@@ -1,0 +1,17 @@
+{
+  "name": "polymorph",
+  "description": "Module to dynamic compilation in the development process.",
+  "version": "0.0.1",
+  "author": "Dmitry Bochkarev <dmitrybochkarev@gmail.com>",
+  "dependencies": {
+    "mime": ">= 1.2.2",
+    "qs": ">= 0.3.2",
+    "uglify-js": ">= 1.1.1",
+    "coffee-script": ">= 1.1.1",
+    "jade": ">= 0.17.0",
+    "stylus": ">= 0.13.0"
+  },
+  "repository": "git://github.com/dmitrybochkarev/polymorph",
+  "main": "index",
+  "engines": { "node":">= 0.4.0" }
+}
