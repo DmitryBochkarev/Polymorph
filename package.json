@@ -1,7 +1,7 @@
 {
   "name": "polymorph",
-  "description": "Polymorph Node module for compile client dev files on fly, inspired by connect-assets.",
-  "version": "0.0.1",
+  "description": "Connect middleware for transparence compile dev files.",
+  "version": "0.0.2",
   "author": "Dmitry Bochkarev <dimabochkarev@gmail.com>",
   "dependencies": {
     "mime": ">= 1.2.2",

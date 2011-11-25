@@ -1,7 +1,12 @@
 module.exports = class Cache
-  constructor: (@options = {}) ->
+  constructor: (options) ->
+    return new Cache arguments... unless @ instanceof Cache
+    @options ?= {}
     @cache = {}
   
+  # index, [field,] value
+  # cache.set "PI", 3.14
+  # cache.set "Math", "PI", 3.14
   set: (index, field, value) ->
     [value, field] = [field, null] if typeof value is 'undefined'
     @cache[index] ?= {}
@@ -41,6 +46,14 @@ module.exports = class Cache
 
   cached: (index) ->
     bindApi this, [index], 'set', 'get', 'del', 'exist', 'changed'
+  
+  all: () ->
+    @cache
+    
+  clear: () ->
+    @cache = {}
+
+Cache::delete = Cache::del
 
 bindApi = (self, params, functions...) ->
   result = {}

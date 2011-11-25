@@ -35,6 +35,7 @@ app.listen 3000
 !!! 5
 html
   head
+    script(src="/sayhello.js", type="application/javascript")
   body
     h1 Jade template!
 ```
